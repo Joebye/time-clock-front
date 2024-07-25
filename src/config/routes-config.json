@@ -1,0 +1,11 @@
+{
+"always": [],
+ "authenticated": [
+    {"to": "/actions", "label": "Actions", "order":1},
+    {"to": "/history", "label": "History", "order":2},
+    {"to": "/signout", "label": "Sign Out", "order":3}
+],
+"noauthenticated":[
+    {"to": "/signin", "label": "Sign In", "order": 1}
+]
+}
